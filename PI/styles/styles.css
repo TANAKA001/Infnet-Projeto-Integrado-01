@@ -1,0 +1,66 @@
+header {
+    border: 1px solid violet;
+    width: 100%;
+}
+
+div[role="top"] {
+    border: 1px solid brown;
+    height: 100px;
+}
+
+div[role="procura"] {
+    border: 1px solid blue;
+    height: 50px;
+}
+
+nav[role="menu-top"] {
+    border: 1px solid gold;
+    height: 50px;
+}
+
+div[role="promocao"] {
+    border: 1px solid darkgreen;
+    height: 200px;
+    margin: 0px 0px 10px 0px;
+}
+
+section[role="container"] {
+    border: 1px solid red;
+    height: 900px;
+}
+
+aside[role="categorias"] {
+    border: 1px solid blue;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+div[role="produtos"] {
+    border: 1px solid green;
+    height: 100%;
+    width: 70%;
+    float: right;
+}
+
+div[role="produto"] {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 5px 10px;
+}
+
+footer {
+    border: 1px solid magenta;
+    height: 200px;
+}
+
+.container-width {
+    width: 960px;
+}
+
+.centered {
+    margin: auto;
+    text-align: center;
+}
