@@ -1,0 +1,60 @@
+div[role="top"] {
+    margin-bottom: 40px;
+}
+
+div[role="login"] {
+    display: table;
+}
+
+div[role="login"] div {
+    float: right;
+}
+
+div[role="login"] a {
+    color: #1e68bf;
+}
+
+header {
+    background-image: url("../images/bg-topo.png");
+    height: 73px;
+    width: 100%;
+    clear: both;
+}
+
+nav {
+    background-color: #10457a;
+    border: 1px solid #5c87b9;
+    height: 33px;
+    color: #f5f5f5;
+    font-family: cursive;
+}
+
+nav li {
+    border-right: 1px solid #5c87b9;
+    float: left;
+    padding: 10px 10px;
+}
+
+nav label {
+    position: relative;
+    top: 6px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+nav input[type="text"] {
+    position: relative;
+    top: 4px;
+    height: 20px;
+    border-radius: 20px;
+    width: 180px;
+}
+
+nav input[type="button"] {
+    position: relative;
+    top: 5px;
+    padding: 2px 10px;
+    border-color: #f5f5f5;
+    border-radius: 15px;
+    background-color: #f5f5f5;
+}

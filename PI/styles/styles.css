@@ -4,26 +4,6 @@ body {
     font-size: 0.8em;
 }
 
-header {
-    border: 1px solid violet;
-    width: 100%;
-}
-
-div[role="top"] {
-    border: 1px solid brown;
-    height: 100px;
-}
-
-div[role="procura"] {
-    border: 1px solid blue;
-    height: 50px;
-}
-
-nav[role="menu-top"] {
-    border: 1px solid gold;
-    height: 50px;
-}
-
 h2[role="titulo-categoria"] {
     margin: 50px 0 20px 0;
     font-size: 2.0em;
@@ -36,7 +16,7 @@ h2[role="titulo-categoria"] {
 }
 
 .centered {
-    margin: auto;
+    margin: auto !important;
 }
 
 .block {

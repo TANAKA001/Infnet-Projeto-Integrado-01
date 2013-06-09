@@ -5,17 +5,40 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/oferta.css">
     <link rel="stylesheet" href="styles/destaque.css">
     <link rel="stylesheet" href="styles/nivel1.css">
     <link rel="stylesheet" href="styles/nivel2.css">
 </head>
 <body>
-  <header>
-      <div role="top" class="container-width centered"><h1>Logo e Opções de conta (Login)</h1></div>
-      <div role="procura" class="container-width centered"><h1>Barra de busca</h1></div>
-      <nav role="menu-top" class="container-width centered"><h1>Navegação por categorias</h1></nav>
-  </header>
+<div role="top">
+    <div role="login" class="container-width centered">
+        <div>
+            <span>Olá</span>
+            <a role="detalhes-usuario" href="#">Leonardo</a>
+            <span>, bem vindo de volta!</span>
+            <span>|</span>
+            <a role="logout" href="#">Sair</a>
+        </div>
+    </div>
+    <header>
+
+    </header>
+    <nav>
+        <ul class="container-width centered">
+            <li>Todas as ofertas</li>
+            <li>Gastronomia</li>
+            <li>Bem-Estar</li>
+            <li>Entretenimento</li>
+            <li>Escapadinhas</li>
+        </ul>
+
+        <label for="busca-promocao">O que você está procurando?</label>
+        <input type="text" id="busca-promocao">
+        <input type="button" value="Procurar">
+    </nav>
+</div>
   <section role="container" class="container-width centered">
       <section role="principal">
           <article role="oferta" class="box-shadow">
