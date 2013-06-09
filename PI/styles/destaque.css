@@ -1,0 +1,36 @@
+section[role="principal"] article[role="oferta"] {
+    height: 345px;
+    width: 644px;
+}
+
+section[role="principal"] aside {
+    width: 230px;
+    float: right;
+}
+
+section[role="principal"] aside div {
+    margin-bottom: 3px;
+}
+
+section[role="principal"] article[role="oferta"] h2 a {
+    font-size: 1.5em;
+}
+
+section[role="principal"] article[role="oferta"] div[role="desconto"] {
+    font-size: 1.2em;
+    margin-top: 17px;
+    margin-left: 4px;
+}
+
+section[role="principal"] article[role="oferta"] footer div[role="preco"] {
+    font-size: 1.2em;
+}
+
+section[role="principal"] div[role="preco"] del {
+    border-right: 1px solid #d0d0d0;
+    padding-right: 73px;
+}
+
+section[role="principal"] div[role="preco"] ins {
+    padding-left: 14px;
+}

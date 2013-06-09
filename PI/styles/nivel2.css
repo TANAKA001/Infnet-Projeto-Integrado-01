@@ -1,0 +1,11 @@
+section[role="ofertas-nivel2"] article[role="oferta"] {
+    height: 255px;
+    width: 220px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+section[role="ofertas-nivel2"] article[role="oferta"] input[type="button"] {
+    margin-top: 8px;
+}
+

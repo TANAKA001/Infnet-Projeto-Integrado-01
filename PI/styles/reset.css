@@ -40,6 +40,10 @@ nav ul {
     list-style:none;
 }
 
+ul {
+    list-style: none;
+}
+
 blockquote, q {
     quotes:none;
 }
@@ -56,18 +60,17 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    text-decoration: none;
 }
 
 /* change colours to suit your needs */
 ins {
-    background-color:#ff9;
     color:#000;
     text-decoration:none;
 }
 
 /* change colours to suit your needs */
 mark {
-    background-color:#ff9;
     color:#000;
     font-style:italic;
     font-weight:bold;

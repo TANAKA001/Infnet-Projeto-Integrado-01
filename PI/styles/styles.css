@@ -1,3 +1,9 @@
+body {
+    background-image: url("../images/bg.jpg");
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
 header {
     border: 1px solid violet;
     width: 100%;
@@ -18,49 +24,41 @@ nav[role="menu-top"] {
     height: 50px;
 }
 
-div[role="promocao"] {
-    border: 1px solid darkgreen;
-    height: 200px;
-    margin: 0px 0px 10px 0px;
-}
-
-section[role="container"] {
-    border: 1px solid red;
-    height: 900px;
-}
-
-aside[role="categorias"] {
-    border: 1px solid blue;
-    height: 100%;
-    width: 25%;
-    float: left;
-}
-
-div[role="produtos"] {
-    border: 1px solid green;
-    height: 100%;
-    width: 70%;
-    float: right;
-}
-
-div[role="produto"] {
-    border: 1px solid black;
-    height: 200px;
-    width: 200px;
-    float: left;
-    margin: 5px 10px;
-}
-
-footer {
-    border: 1px solid magenta;
-    height: 200px;
+h2[role="titulo-categoria"] {
+    margin: 50px 0 20px 0;
+    font-size: 2.0em;
+    font-family: cursive;
+    color: #1a1a1a !important;
 }
 
 .container-width {
-    width: 960px;
+    width: 920px;
 }
 
 .centered {
     margin: auto;
-    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.box-shadow {
+    box-shadow: 3px 3px 15px RGBA(0,0,0,0.3)
+}
+
+.clear-margin-left {
+    margin-left: 0 !important;
 }
